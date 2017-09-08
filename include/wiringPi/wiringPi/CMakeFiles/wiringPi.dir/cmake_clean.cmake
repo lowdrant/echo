@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/wiringPi.dir/ads1115.c.o"
+  "CMakeFiles/wiringPi.dir/bmp180.c.o"
+  "CMakeFiles/wiringPi.dir/drcNet.c.o"
+  "CMakeFiles/wiringPi.dir/drcSerial.c.o"
+  "CMakeFiles/wiringPi.dir/ds18b20.c.o"
+  "CMakeFiles/wiringPi.dir/htu21d.c.o"
+  "CMakeFiles/wiringPi.dir/max31855.c.o"
+  "CMakeFiles/wiringPi.dir/max5322.c.o"
+  "CMakeFiles/wiringPi.dir/mcp23008.c.o"
+  "CMakeFiles/wiringPi.dir/mcp23016.c.o"
+  "CMakeFiles/wiringPi.dir/mcp23017.c.o"
+  "CMakeFiles/wiringPi.dir/mcp23s08.c.o"
+  "CMakeFiles/wiringPi.dir/mcp23s17.c.o"
+  "CMakeFiles/wiringPi.dir/mcp3002.c.o"
+  "CMakeFiles/wiringPi.dir/mcp3004.c.o"
+  "CMakeFiles/wiringPi.dir/mcp3422.c.o"
+  "CMakeFiles/wiringPi.dir/mcp4802.c.o"
+  "CMakeFiles/wiringPi.dir/pcf8574.c.o"
+  "CMakeFiles/wiringPi.dir/pcf8591.c.o"
+  "CMakeFiles/wiringPi.dir/piHiPri.c.o"
+  "CMakeFiles/wiringPi.dir/piThread.c.o"
+  "CMakeFiles/wiringPi.dir/pseudoPins.c.o"
+  "CMakeFiles/wiringPi.dir/rht03.c.o"
+  "CMakeFiles/wiringPi.dir/sn3218.c.o"
+  "CMakeFiles/wiringPi.dir/softPwm.c.o"
+  "CMakeFiles/wiringPi.dir/softServo.c.o"
+  "CMakeFiles/wiringPi.dir/softTone.c.o"
+  "CMakeFiles/wiringPi.dir/sr595.c.o"
+  "CMakeFiles/wiringPi.dir/wiringPi.c.o"
+  "CMakeFiles/wiringPi.dir/wiringPiI2C.c.o"
+  "CMakeFiles/wiringPi.dir/wiringPiSPI.c.o"
+  "CMakeFiles/wiringPi.dir/wiringSerial.c.o"
+  "CMakeFiles/wiringPi.dir/wiringShift.c.o"
+  "CMakeFiles/wiringPi.dir/wpiExtensions.c.o"
+  "libwiringPi.pdb"
+  "libwiringPi.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/wiringPi.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

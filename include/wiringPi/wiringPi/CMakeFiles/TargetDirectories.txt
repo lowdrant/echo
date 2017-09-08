@@ -1,0 +1,4 @@
+/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/rebuild_cache.dir
+/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/edit_cache.dir
+/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/wiringSerial.dir
+/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/wiringPi.dir

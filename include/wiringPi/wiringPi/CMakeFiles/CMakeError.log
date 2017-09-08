@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1de6b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1de6b.dir/build.make CMakeFiles/cmTC_1de6b.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1de6b.dir/CheckSymbolExists.c.o
+/home/marion/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -Wall -o CMakeFiles/cmTC_1de6b.dir/CheckSymbolExists.c.o   -c /home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1de6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1de6b.dir/link.txt --verbose=1
+/home/marion/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_1de6b.dir/CheckSymbolExists.c.o  -o cmTC_1de6b -rdynamic 
+CMakeFiles/cmTC_1de6b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1de6b.dir/build.make:97: recipe for target 'cmTC_1de6b' failed
+make[1]: *** [cmTC_1de6b] Error 1
+make[1]: Leaving directory '/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1de6b/fast' failed
+make: *** [cmTC_1de6b/fast] Error 2
+
+File /home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_61767/fast"
+/usr/bin/make -f CMakeFiles/cmTC_61767.dir/build.make CMakeFiles/cmTC_61767.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_61767.dir/CheckFunctionExists.c.o
+/home/marion/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -DCHECK_FUNCTION_EXISTS=pthread_create   -Wall -o CMakeFiles/cmTC_61767.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_61767
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61767.dir/link.txt --verbose=1
+/home/marion/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_61767.dir/CheckFunctionExists.c.o  -o cmTC_61767 -rdynamic -lpthreads 
+/home/marion/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_61767.dir/build.make:97: recipe for target 'cmTC_61767' failed
+make[1]: *** [cmTC_61767] Error 1
+make[1]: Leaving directory '/home/marion/dev/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_61767/fast' failed
+make: *** [cmTC_61767/fast] Error 2
+
+
