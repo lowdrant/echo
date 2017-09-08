@@ -1,0 +1,541 @@
+The target system is: Linux - 1 - 
+The host system is: Linux - 4.10.0-32-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/marion/dev/pi/echo/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/marion/dev/pi/echo/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5db10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5db10.dir/build.make CMakeFiles/cmTC_5db10.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5db10.dir/testCCompiler.c.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -g -Wall -o CMakeFiles/cmTC_5db10.dir/testCCompiler.c.o   -c /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5db10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5db10.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_5db10.dir/testCCompiler.c.o  -o cmTC_5db10 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef70e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef70e.dir/build.make CMakeFiles/cmTC_ef70e.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -g -Wall -o CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ef70e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef70e.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o  -o cmTC_ef70e -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+Thread model: posix
+gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
+COMPILER_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef70e' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRuO0QM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_ef70e /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ef70e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ef70e.dir/build.make CMakeFiles/cmTC_ef70e.dir/build]
+  ignore line: [make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -g -Wall -o CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ef70e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef70e.dir/link.txt --verbose=1]
+  ignore line: [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -v CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o  -o cmTC_ef70e -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
+  ignore line: [COMPILER_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef70e' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRuO0QM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_ef70e /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRuO0QM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ef70e] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_ef70e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_91ae7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_91ae7.dir/build.make CMakeFiles/cmTC_91ae7.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91ae7.dir/feature_tests.c.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -g -Wall -std=c11 -o CMakeFiles/cmTC_91ae7.dir/feature_tests.c.o   -c /home/marion/dev/pi/echo/CMakeFiles/feature_tests.c
+Linking C executable cmTC_91ae7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91ae7.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_91ae7.dir/feature_tests.c.o  -o cmTC_91ae7 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74973/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74973.dir/build.make CMakeFiles/cmTC_74973.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74973.dir/feature_tests.c.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -g -Wall -std=c99 -o CMakeFiles/cmTC_74973.dir/feature_tests.c.o   -c /home/marion/dev/pi/echo/CMakeFiles/feature_tests.c
+Linking C executable cmTC_74973
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74973.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_74973.dir/feature_tests.c.o  -o cmTC_74973 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_316e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_316e6.dir/build.make CMakeFiles/cmTC_316e6.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_316e6.dir/feature_tests.c.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -g -Wall -std=c90 -o CMakeFiles/cmTC_316e6.dir/feature_tests.c.o   -c /home/marion/dev/pi/echo/CMakeFiles/feature_tests.c
+Linking C executable cmTC_316e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_316e6.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       CMakeFiles/cmTC_316e6.dir/feature_tests.c.o  -o cmTC_316e6 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f65c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f65c7.dir/build.make CMakeFiles/cmTC_f65c7.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f65c7.dir/testCXXCompiler.cxx.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -g -Wall -o CMakeFiles/cmTC_f65c7.dir/testCXXCompiler.cxx.o -c /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f65c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f65c7.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc        CMakeFiles/cmTC_f65c7.dir/testCXXCompiler.cxx.o  -o cmTC_f65c7 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf372/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf372.dir/build.make CMakeFiles/cmTC_cf372.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -g -Wall -o CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cf372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf372.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -v CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cf372 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+Thread model: posix
+gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
+COMPILER_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf372' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIrPpwb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_cf372 /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cf372/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf372.dir/build.make CMakeFiles/cmTC_cf372.dir/build]
+  ignore line: [make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -g -Wall -o CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cf372]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf372.dir/link.txt --verbose=1]
+  ignore line: [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -v CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cf372 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
+  ignore line: [COMPILER_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf372' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIrPpwb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_cf372 /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIrPpwb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cf372] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_cf372.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0b09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0b09.dir/build.make CMakeFiles/cmTC_e0b09.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0b09.dir/feature_tests.cxx.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -g -Wall -std=c++14 -o CMakeFiles/cmTC_e0b09.dir/feature_tests.cxx.o -c /home/marion/dev/pi/echo/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e0b09
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0b09.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc        CMakeFiles/cmTC_e0b09.dir/feature_tests.cxx.o  -o cmTC_e0b09 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14b12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14b12.dir/build.make CMakeFiles/cmTC_14b12.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14b12.dir/feature_tests.cxx.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -g -Wall -std=c++11 -o CMakeFiles/cmTC_14b12.dir/feature_tests.cxx.o -c /home/marion/dev/pi/echo/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_14b12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14b12.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc        CMakeFiles/cmTC_14b12.dir/feature_tests.cxx.o  -o cmTC_14b12 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/marion/dev/pi/echo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b45e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b45e4.dir/build.make CMakeFiles/cmTC_b45e4.dir/build
+make[1]: Entering directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b45e4.dir/feature_tests.cxx.o
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -g -Wall -std=c++98 -o CMakeFiles/cmTC_b45e4.dir/feature_tests.cxx.o -c /home/marion/dev/pi/echo/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b45e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b45e4.dir/link.txt --verbose=1
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc        CMakeFiles/cmTC_b45e4.dir/feature_tests.cxx.o  -o cmTC_b45e4 -rdynamic 
+make[1]: Leaving directory '/home/marion/dev/pi/echo/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

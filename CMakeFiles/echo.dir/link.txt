@@ -1,0 +1,1 @@
+/home/marion/dev/pi/echo/opt/raspberrypi-tool/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     CMakeFiles/echo.dir/src/echo.c.o  -o build/echo -Wl,-rpath,/home/marion/dev/pi/echo/include/wiringPi/wiringPi -rdynamic include/wiringPi/wiringPi/libwiringPi.so 

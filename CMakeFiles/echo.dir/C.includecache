@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/marion/dev/pi/echo/src/echo.c
+wiringPi.h
+-
+wiringSerial.h
+-
+stdio.h
+-
+string.h
+-
+errno.h
+-
+unistd.h
+-
+stdlib.h
+-
+linux/limits.h
+-
+
+include/wiringPi/wiringPi/wiringPi.h
+
+include/wiringPi/wiringPi/wiringSerial.h
+
