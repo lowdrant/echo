@@ -10,19 +10,49 @@ This repository comes with all the files for cross compiling (except CMake) in t
 *  Raspberry Pi Libraries
 	* [wiringPi](http://wiringpi.com/) - Interface to Raspberry Pi pins
 	* [wiringSerial](http://wiringpi.com/reference/serial-library/) - Raspberry Pi serial interface, included with wiringPi download.
-	'''
+	```
 	git clone git://git.drogon.net/wiringpi/
-	'''
+	```
 * Cross Compiling Tools
 	* [CMake](https://cmake.org/)
-	'''
+	```
 	sudo apt install cmake
-	'''
+	```
 	* [Raspbery Pi Toolchain](https://github.com/raspberrypi/tools)
-	'''
+	```
 	git clone https://github.com/raspberrypi/tools
-	'''
-
+#### Directory Structure Overview
+```
+echo/
+|  README
+|  LICENSE
+|  CMakeLists.txt
+|  Various CMake Files
+|----build/
+	 |  echo
+	 |
+|----include/
+	  |----wiringPi/
+		   |  Various wiringPi scripts and folders
+		    |----wiringPi/
+			     |  wiringPi.c
+			     |  wiringPi.h
+				  |  wiringSerial.c
+			  	  |  wiringSerial.h
+				  |  CMakeLists.txt
+				  |  Various CMake Files
+				  |  libwiringPi.so
+			 	  |  libwiringSerial.so
+				  |  More RPi libraries not relevant to this project
+				  |
+|------opt/
+	|  clean_cmake.sh
+	|  raspberrypi-tool/
+	|  toolchain-rpi.cmake
+	|
+|------src/
+	|  echo.c
+```
 ### Compiling on a Raspberry Pi
  I cross compiled this project on an Ubuntu 17.04 machine, so to recompile it on a Raspberry Pi, follow instructions on  the [wiringPi website](http://wiringpi.com/) after installing the libraries. It may also be necessary to remove the CMake files in the project subdirectories to avoid conflicts.
 
@@ -30,54 +60,26 @@ This repository comes with all the files for cross compiling (except CMake) in t
 An excellent reference on this subject is [Alex C.U.'s Raspberry Pi Cross Compile Guide](https://medium.com/@au42/the-useful-raspberrypi-cross-compile-guide-ea56054de187), which I  used heavily during this project.
 
 To just recompile the program, use the provided makefile in the project directory:
-'''
+```
 cd path/to/echo/
 make clean
 make
-'''
+```
 
-To recompile after editing the makefile or any CMake settings, first remove the files CMake generates (if you're experienced with CMake you probably already know this, but I didn't when I started). To that end, I've placed a cleanup script, clean_cmake.sh, in the opt/ folder. It will remove the typical files CMake creates in whatever directory it is called in.
-'''
+To recompile after editing the makefile or any CMake settings, first remove the files CMake generates (if you're experienced with CMake you probably already know this, but I didn't when I started). To that end, I've placed a cleanup script, clean_cmake.sh, in the opt/ folder. It will remove the typical files CMake creates in whatever directory it is called.
+
+```
 cd path/to/cmake/files
 path/to/opt/clean_cmake.sh
-'''
+```
+
 CMake can then be invoked like so:
-'''
+
+```
 cmake . -DCMAKE_TOOLCHAIN_FILE=path/to/opt/toolchain-rpi.cmake
 make
-'''
+```
 
-### Directory Structure Overview
-'''
-echo/
-| 	README
-| 	LICENSE
-|	CMakeLists.txt
-|	Various CMake Files
-|-----build/
-	|	echo
-	|
-|-----include/
-	|-----wiringPi/
-		|	Various wiringPi scripts and folders
-		|-----wiringPi/
-			|	wiringPi.c
-			|	wiringPi.h
-			|	wiringSerial.c
-			|	wiringSerial.h
-			|	CMakeLists.txt
-			|	Various CMake Files
-			|	libwiringPi.so
-			|	libwiringSerial.so
-			|	More RPi libraries not relevant to this project
-|------opt/
-	|	clean_cmake.sh
-	|	raspberrypi-tool/
-	|	toolchain-rpi.cmake
-	|
-|------src/
-	|	echo.c
-'''
 
 ## Built With
 * [Raspberry Pi](https://www.raspberrypi.org/) - A hobbyist-oriented single-board computer
