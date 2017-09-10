@@ -1,5 +1,5 @@
 # Echo
-Program for echoing received serial data like the  [Arduino example](https://www.arduino.cc/en/Tutorial/SoftwareSerialExample). I used this program as an intro to learning about cross compiling and how to better structure project directories.
+Program for echoing received serial data on a Raspberry Pi like the  [Arduino example](https://www.arduino.cc/en/Tutorial/SoftwareSerialExample). I used this program as an intro to learning about cross compiling and how to better structure project directories.
 Usage: ```./echo [-p port] [-b baudrate]```
 
 ## Getting Started
