@@ -87,7 +87,7 @@ make
 *  [Raspbery Pi Toolchain](https://github.com/raspberrypi/tools) - Toolchain with compilers for Raspberry Pi
 
 ## Authors
-* **Marion Anderson** - *Raspberry Pi code and project organization* - [lmander42](https://github.com/lmander42)
+* **Marion Anderson** - *Raspberry Pi code and project organization* - [lowdrant](https://github.com/lowdrant)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
